@@ -181,7 +181,7 @@
     background: white;
     z-index: 999;
 }
-.owl-carousel .owl-item img{
+.service-section.owl-carousel .owl-item img{
     width: auto!important;
     
 }
@@ -211,7 +211,7 @@
     width: 100%;
 } */
 
-.owl-nav{
+.service-section.owl-nav{
     /* display: flex;
     justify-content: space-between; */
     display: none;
@@ -220,4 +220,26 @@
 /* voopons-love-section css */
 .voopons-love-section{
     margin-top: 6rem;
+}
+
+.voponse-carousel.slider img{
+    width: 100%;
+}
+
+.carousal-voponse-btn-group button{
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 44%;
+    font-size: 25px;
+    z-index: 99;
+/*        
+    background-color: rgb(27, 26, 26); */
+    color:#E60023;
+
+}
+.carousal-voponse-custome-btn-prev{
+    padding-right: 30px;
 }
