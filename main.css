@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+.input {
+  background-color: black;
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px;
+  border: none;
+  color: white;
+}
+.input:focus {
+  outline: none;
+}
+.inputdiv {
+  position: relative;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+.inputdiv .searchIcon {
+  color: white;
+  position: absolute;
+  /* transform: translateX(-149%); */
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  border-radius: 0px 20px 20px 0px;
+}
+.userWrapper {
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 4px;
+}
+.userImage img {
+  width: 30px;
+}
+
+
+/* Nav css */
+
+
+@media (min-width: 992px) {
+  .offcanvas {
+    visibility: visible;
+    position: relative;
+    background: none;
+    border: none;
+    justify-content: end;
+    color: #555555;
+  }
+}
+
+@media (max-width: 992px) {
+  .offcanvas {
+    width: 250px !important;
+
+    /* background: linear-gradient(to bottom, #0C1E7F 12%, #D22779 100%); */
+    background: white;
+  }
+  .offcanvas-start-lg {
+    top: 0;
+    left: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+
+    transform: translateX(-100%);
+  }
+}
+@media (max-width: 992px) {
+  .offcanvas .navbar-nav li a {
+    color: black !important;
+    /* border-bottom: 1px dotted orange; */
+    margin-bottom: 25px;
+
+  }
+  .offcanvas .navbar-nav li a.active {
+    color: black !important;
+  }
+}
+
+.navbar-toggler {
+  display: flex;
+  justify-content: end;
+}
+.navbar-nav li a {
+  color: black;
+  text-align: left;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin: 0px 0px 0px 10px;
+  font-weight: 700;
+}
+/* .nav-link.active {
+  color: white !important;
+} */
+/* nav.bg-transparent .navbar-nav li a {
+  color: black !important;
+} */
+.navbar-dark .navbar-nav li a {
+  color: black !important;
+  font-weight: 700;
+}
+/* .offcanvas .navbar-nav li a:hover {
+  color: orange !important;
+} */
+.offcanvas-header {
+  height: 30px;
+  padding-top: 50px;
+}
+/* .offcanvas-header a svg {
+  background-color: white;
+  border-radius: 50%;
+} */
+.toggle-margin {
+  margin-top: 25px;
+  margin-right: 0px;
+}
+.btnJoin{
+    background-color:  #E60023;
+    border-radius: 20px;
+    padding: 3px 23px;
+    border: none;
+    color: white;
+}
+.toggleBtn{
+    color: black!important;
+}
+.toggleBtn:focus{
+    outline-offset: 0!important;
+}
+
+/* hero section css  */
+.hero-section{
+    background-image: url('./images/slide.jpg');
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+.hreo-section-btn{
+    background-color: white;
+    color: #E60023;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.hreo-section-btn span img{
+    width: 20px;
+}
+
+
