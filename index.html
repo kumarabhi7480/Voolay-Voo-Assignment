@@ -157,8 +157,8 @@
 
     </nav>
   </header>
-  <section class="hero-section">
-    <div class="container">
+  <section class="hero-section position-relative mb-6">
+    <div class="container ">
       <div class="row">
         <div class="col-md-6 col-12 text-white">
           <div>
@@ -176,10 +176,152 @@
 
         </div>
       </div>
+
+      
+    </div>
+     <section class="service-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="slider-section pb-4 position-relative">
+              <div class="owl-carousel owl-theme">
+                <div class="slider">
+                  <div class="service-icon">
+                    <img src="./images/icon1.png" alt="">
+                  </div>
+                  <div class="service-card">
+
+                    <div>
+                      <h5>Food Store</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider">
+                  <div class="service-icon">
+                    <img src="./images/icon2.png" alt="">
+                  </div>
+                  <div class="service-card">
+
+                    <div>
+                      <h5>Travel Agency</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider">
+                  <div class="service-icon">
+                    <img src="./images/icon1.png" alt="">
+                  </div>
+                  <div class="service-card">
+
+                    <div>
+                      <h5>Food Store</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider">
+                  <div class="service-icon">
+                    <img src="./images/icon3.png" alt="">
+                  </div>
+                  <div class="service-card">
+
+                    <div>
+                      <h5>Shoopoing</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider">
+                  <div class="service-icon">
+                    <img src="./images/icon4.png" alt="">
+                  </div>
+                  <div class="service-card">
+
+                    <div>
+                      <h5>Restaurants</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider">
+                  <div class="service-icon">
+                    <img src="./images/icon5.png" alt="">
+                  </div>
+                  <div class="service-card">
+
+                    <div>
+                      <h5>Movie</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider">
+                  <div class="service-icon">
+                    <img src="./images/icon6.png" alt="">
+                  </div>
+                  <div class="service-card">
+
+                    <div>
+                      <h5>Entertainment</h5>
+                    </div>
+                  </div>
+                </div>
+             
+
+
+              </div>
+              <!-- custom button nav  -->
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-12">
+
+                    <div class="carousal-btn-group d-flex justify-content-between ">
+
+                      <div class="carousal-custome-btn-next">
+                        <button class="btn btn-sm  customNextBtn">
+                          <i class="fa-solid fa-angle-left"></i>
+
+                        </button>
+                      </div>
+
+                      <div class="carousal-custome-btn-prev">
+                        <button class="btn btn-sm  customPrevBtn">
+                          <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
+    </section> 
+  </section>
+
+
+  <section class="voopons-love-section">
+    <div class="container">
+
+      <h1>Voopans You will Love</h1>
+
+      <div class="voponse-carousel">
+        
+      </div>
+
     </div>
   </section>
 
- 
+
 
 
 </body>
@@ -203,10 +345,10 @@
 
 
 <script>
-  // Testimonials carousel
+  // service carousel
   $('.owl-carousel').owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 20,
     nav: true,
     responsive: {
       0: {
@@ -217,6 +359,25 @@
       },
       1000: {
         items: 5
+      }
+    }
+  })
+</script>
+<script>
+  // service carousel
+  $('.owl-carousel-2').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      700: {
+        items: 2
+      },
+      1000: {
+        items: 3
       }
     }
   })
