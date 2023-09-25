@@ -314,8 +314,49 @@
 
       <h1>Voopans You will Love</h1>
 
-      <div class="voponse-carousel">
-        
+      <div class="voponse-carousel position-relative">
+        <div class="owl-carousel owl-carousel-2">
+          <div class="slider">
+            <img src="./images/sheSlide1.png" alt="">
+          </div>
+          <div class="slider">
+            <img src="./images/sheSlide2.png" alt="">
+          </div>
+          <div class="slider">
+            <img src="./images/sheSlide3.png" alt="">
+          </div>
+       
+        </div>
+           <!-- custom button nav  -->
+
+           <div class="container">
+
+            <div class="row">
+
+              <div class="col-12">
+
+                <div class="carousal-voponse-btn-group d-flex justify-content-between ">
+
+                  <div class="carousal-voponse-custome-btn-next">
+                    <button class="btn btn-sm  customNextBtn">
+                      <i class="fa-solid fa-angle-left"></i>
+
+                    </button>
+                  </div>
+
+                  <div class="carousal-voponse-custome-btn-prev">
+                    <button class="btn btn-sm  customPrevBtn">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
       </div>
 
     </div>
@@ -343,13 +384,59 @@
   integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<script>
+$('.owl-carousel-2').owlCarousel({
+
+    loop: true,
+
+    margin: 20,
+
+    nav: true,
+
+    autoplay: false,
+
+    autoplayTimeout: 4000,
+    autoplayHoverPause: true,
+
+    dots: false,
+
+    responsive: {
+
+        0: {
+
+            items: 1
+
+        },
+
+        600: {
+
+            items: 1
+
+        },
+
+        1000: {
+
+            items: 3
+
+        },
+
+        1200: {
+
+            items: 3
+
+        }
+
+    }
+
+})
+</script>
 
 <script>
   // service carousel
   $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 20,
-    nav: true,
+    nav: false,
     responsive: {
       0: {
         items: 1
@@ -363,25 +450,7 @@
     }
   })
 </script>
-<script>
-  // service carousel
-  $('.owl-carousel-2').owlCarousel({
-    loop: true,
-    margin: 20,
-    nav: false,
-    responsive: {
-      0: {
-        items: 1
-      },
-      700: {
-        items: 2
-      },
-      1000: {
-        items: 3
-      }
-    }
-  })
-</script>
+
 <script>
   // custom button owl nav
 
