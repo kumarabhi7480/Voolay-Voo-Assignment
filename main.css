@@ -243,3 +243,57 @@
 .carousal-voponse-custome-btn-prev{
     padding-right: 30px;
 }
+
+/* how is work section  */
+
+.how-work-section .how-it-work{
+    padding: 20px 0px 130px 0px;
+    background-color: #E60023;
+}
+.service-work{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    padding: 40px 0px 20px 0px ;
+    border: 1px solid rgba(128, 128, 128, 0.187);
+    border-radius: 5px;
+    background: white;
+    height: 138px;
+}
+/* .service-card-work{
+   
+} */
+
+.service-icon-work{
+    position: absolute;
+    /* left: 29%; */
+      transform: translateX(50%);
+    top: -48%;
+    padding: 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    */
+    border-radius: 5px;
+    z-index: 999;
+}
+.service-icon-work img{
+    width: 100px;
+}
+.work-title{
+    padding: 10px;
+}
+.work-card-wrapper{
+    position: absolute;
+   bottom: -50%;
+   width: 100%;
+}
+
+.work-section-btn{
+    background-color: #E60023;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: 700;
+ display: block;
+ margin: auto;
+margin-top: 16px;
+}
